@@ -1,0 +1,92 @@
+<web-app>
+    <servlet>
+        <servlet-name>adminservlet</servlet-name>
+        <servlet-class>adminservlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>adminservlet</servlet-name>
+        <url-pattern>/adminservlet</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+    <servlet-name>stregservlet</servlet-name>
+    <servlet-class>stregservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>stregservlet</servlet-name>
+    <url-pattern>/stregservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>stlogservlet</servlet-name>
+    <servlet-class>stlogservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>stlogservlet</servlet-name>
+    <url-pattern>/stlogservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getdataservlet</servlet-name>
+    <servlet-class>getdataservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getdataservlet</servlet-name>
+    <url-pattern>/getdataservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>applservlet</servlet-name>
+    <servlet-class>applservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>applservlet</servlet-name>
+    <url-pattern>/applservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>viewservlet</servlet-name>
+    <servlet-class>viewservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>viewservlet</servlet-name>
+    <url-pattern>/viewservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>statusservlet</servlet-name>
+    <servlet-class>statusservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>statusservlet</servlet-name>
+    <url-pattern>/statusservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>updateservlet</servlet-name>
+    <servlet-class>updateservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>updateservlet</servlet-name>
+    <url-pattern>/updateservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>tryservlet</servlet-name>
+    <servlet-class>tryservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>tryservlet</servlet-name>
+    <url-pattern>/tryservlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

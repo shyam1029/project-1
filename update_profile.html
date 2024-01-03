@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Online Form Request</h1>
+      <nav>
+        <a href="./student_home.html">Home</a>
+        <a href="#update">Update</a>
+        <a href="./application_form.html">Application Form</a>
+        <a href="./viewstatus.html">View Status</a>
+        <a href="./student_login.html">Logout</a>
+      </nav>
+    </header>
+    <div class="form-container">
+      <form class="center-form" action="updateservlet" method="get">
+        <input
+          type="text"
+          name="fname"
+          placeholder="First name"
+          required
+        /><br /><br />
+
+        <input
+          type="text"
+          name="lname"
+          placeholder="Last name"
+          required
+        /><br /><br />
+
+        <input
+          type="text"
+          name="email"
+          placeholder="Email"
+          required
+        /><br /><br />
+
+        <input
+          type="text"
+          name="Roll"
+          placeholder="Roll number"
+          required
+        /><br /><br />
+
+        <input
+          type="text"
+          name="Contact"
+          placeholder="Contact"
+          required
+        /><br /><br />
+
+        <input
+          type="password"
+          name="pass"
+          placeholder="Password"
+          required
+        /><br /><br />
+        <input class="btn" type="submit" value="Update" />
+      </form>
+    </div>
+    <p>*NOTE: you can not update your Roll number in any case</p>
+  </body>
+</html>

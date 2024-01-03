@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Online Form Request</h1>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./admin_login.html">Admin</a>
+        <a href="#student">Student</a>
+      </nav>
+    </header>
+    <div class="form-container">
+      <form class="center-form" action="stlogservlet" method="get">
+        <input
+          type="text"
+          name="email"
+          placeholder="Email"
+          required
+        /><br /><br />
+
+        <input
+          type="password"
+          name="pass"
+          placeholder="Password"
+          required
+        /><br /><br />
+        <input class="btn" type="submit" value="Login" /><span></span
+        ><br /><br />
+        <a href="./student_registration.html"
+          ><button class="btn" type="Login" form="nameform" value="submit">
+            New applicant? Signin here
+          </button>
+        </a>
+      </form>
+    </div>
+  </body>
+</html>
